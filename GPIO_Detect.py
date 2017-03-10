@@ -1,4 +1,8 @@
-#from __future__ import print_function
+#################################################################
+# Author: Tianlun Luo                                           #
+# This moduel contains SPI interface interaction functions      #
+#################################################################
+
 import RPi.GPIO as GPIO
 
 def GPIO_readIn():

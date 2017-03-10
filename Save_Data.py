@@ -1,3 +1,10 @@
+#################################################################
+# Author: Tianlun Luo                                           #
+# This moduel is used to save data read from sensor to a        #
+# csv file. This csv file serves as a backup for the entire     #
+# measurement system                                            #
+#################################################################
+
 import datetime
 
 def write_to_csvfile(depth_float,pressure_float):

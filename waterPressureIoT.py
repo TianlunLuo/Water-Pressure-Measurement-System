@@ -1,3 +1,8 @@
+#################################################################
+# Author: Tianlun Luo                                           #
+# This is the main function of the entire system.               #
+#################################################################
+
 from __future__ import print_function
 import GPIO_Detect
 import ThingSpeak_Upload

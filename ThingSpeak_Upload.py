@@ -1,3 +1,11 @@
+#################################################################
+# Author: Tianlun Luo                                           #
+# This moduel can establish the connection between loacal       #
+# microcontroller and ThingSpeak server. This will allow the    #
+# pressure measurement system to upload the readings to the     #
+# website                                                       #
+#################################################################
+
 from __future__ import print_function
 import paho.mqtt.publish as publish
 import psutil
